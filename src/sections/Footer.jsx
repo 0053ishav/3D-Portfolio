@@ -10,13 +10,13 @@ const Footer = () => {
         </div>
 
         <div className='flex gap-3'>
-                <a href="https://www.github.com/0007ishav" target='_blank' rel='noreferrer' className='social-icon'>
+                <a href="https://www.github.com/0053ishav" target='_blank' rel='noreferrer' className='social-icon'>
                 <img src="/assets/github.svg" alt="github" className='w-1/2 h-1/2' />
                 </a>
-                <a href="https://www.linkedin.com/in/0007ishav" target='_blank' rel='noreferrer' className='social-icon'>
+                <a href="https://www.linkedin.com/in/0053ishav" target='_blank' rel='noreferrer' className='social-icon'>
                 <img src="/assets/linkedin.svg" alt="linkedin" className='w-1/2 h-1/2' />
                 </a>
-                <a href="https://instagram.com/0007ishav" target='_blank' rel='noreferrer' className='social-icon'>
+                <a href="https://instagram.com/0053ishav" target='_blank' rel='noreferrer' className='social-icon'>
                 <img src="/assets/instagram.svg" alt="instagram" className='w-1/2 h-1/2' />
                 </a>
                 <a href="https://strngeblogs.hashnode.dev" target='_blank' rel='noreferrer' className='social-icon'>
