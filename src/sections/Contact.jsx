@@ -10,6 +10,7 @@ const Contact = forwardRef((_, ref) => {
   const [form, setForm] = useState({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -30,6 +31,7 @@ const Contact = forwardRef((_, ref) => {
           to_name: "Ishav",
           to_email: "workwithishav@gmail.com",
           from_email: form.email,
+          subject: form.subject,
           message: form.message,
         },
         "wP2BV13LY2ifam7Kh"
@@ -41,6 +43,7 @@ const Contact = forwardRef((_, ref) => {
       setForm({
         name: "",
         email: "",
+        subject: "",
         message: "",
       });
     } catch (error) {
@@ -91,6 +94,17 @@ const Contact = forwardRef((_, ref) => {
                 required
                 className="field-input"
                 placeholder="johndoe@gmail.com"
+              />
+            </label>
+             <label className="space-y-3">
+              <span className="field-label">Subject</span>
+              <input
+                type="subject"
+                name="subject"
+                value={form.subject}
+                onChange={handleChange}
+                required
+                className="field-input"
               />
             </label>
             <label className="space-y-3">
